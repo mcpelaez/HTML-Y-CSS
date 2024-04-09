@@ -1,0 +1,174 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  button[type="reset"] {
+    background-color: #dc3545;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  button[type="reset"]:hover {
+    background-color: #c82333;
+  }
+
+.py-3 .container {
+    background-color: #f4f4f4;
+
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+    
+#navbar {
+    background-image: url(../img/Comodidad.jpg);
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color: #444;
+    color:#f7c08a;
+}
+
+
+#home-info .info-img {
+    float: right;
+    width: 50%;
+    background: url('../img/Vista.jpg') no-repeat;
+    min-height: 100%;
+}
+
+.main-footer {
+    background: lightgray;
+    color: black;
+    text-align: inline block;
+    padding: 20px;
+}
+
+.main-footer p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.container-f {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-f {
+    width: 30%;
+  }
+  
+  .section-f h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .section-f ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-f ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+  }
+  
+  .section-f ul li a {
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+  
+  .section-f ul li a:hover {
+    color: #000;
+    background-color: #444;
+    color:#f7c08a;
+  }
+  
+  .section-f ul li img {
+      width: 23px; 
+      height: 22px; 
+      margin-right: 5px; 
+  }
+
+

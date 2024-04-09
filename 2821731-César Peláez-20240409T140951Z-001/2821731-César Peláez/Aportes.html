@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario para tus aportes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="Css/Aportes.css">
+</head>
+<body>
+  <div class="container">
+    <h1>¡Bienvenidos tus conocimientos!</h1>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required minlength="5" maxlength="10" /><br /><br />
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required minlength="5" maxlength="10" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required minlength="5" /><br /><br />
+
+      <label for="telefono">Teléfono:</label>
+      <input type="number" id="telefono" name="telefono" /><br /><br />
+      
+      <label for="comentarios">Comentarios:</label><br />
+      <textarea id="comentarios" name="comentarios" rows="6" cols="50"></textarea><br /><br />
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpiar</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  background-image: url(./Imagenes/descarga.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-int {
+  background-color: lightgreen;
+  text-align: center;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.header-int h1 {
+  font-size: 1.4rem;
+}
+
+.nav a:hover {
+  background-color: #230cf185;
+  color: rgba(12, 12, 12, 0.973);
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgoldenrodyellow;
+  height: 4rem;
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.nav ul li {
+  display: inline;
+  color: blue;
+  padding-right: 1rem;
+  padding: 0.3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 0.1rem solid;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.section-int,
+.section-int2 {
+  background-color: lightgreen;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+}
+
+.section-int h1,
+.section-int h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-int img,
+.aside-1 img {
+  height: 13rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.section-int time {
+  position: relative;
+  bottom: 7rem;
+  font-size: 1rem;
+}
+
+.section-int p,
+.section-int2 p {
+  margin-top: 2rem;
+}
+
+.aside-1 {
+  background-color: lightcyan;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.note blockquote {
+  background-color: #f9f9f9;
+  border-left: 10px solid #ccc;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+.footer-1 {
+  background-color: lightcyan;
+  padding: 40px 0;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 30%;
+}
+
+.section h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.section ul li a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section ul li a:hover {
+  color: #000;
+}
+
+.section ul li img {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}

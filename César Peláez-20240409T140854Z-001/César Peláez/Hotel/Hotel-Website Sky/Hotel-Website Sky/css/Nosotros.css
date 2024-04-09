@@ -1,0 +1,208 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #fff;
+}
+
+
+.carrousel{
+    width: 100%;
+    
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta img {
+    max-width: 50%;
+    height: 200%;
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: lightgray;
+}
+
+#itemCarrousel-2{
+    background-color: lightgray;
+}
+
+#itemCarrousel-3{
+    background-color: lightgray;
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+    
+
+#navbar {
+    background-image: url(../img/Comodidad.jpg);
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color: #444;
+    color:#f7c08a;
+}
+
+
+.main-footer {
+    background: lightgray;
+    color: black;
+    text-align: inline block;
+    padding: 20px;
+}
+
+.main-footer p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.container-f {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-f {
+    width: 30%;
+  }
+  
+  .section-f h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .section-f ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-f ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+  }
+  
+  .section-f ul li a {
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+  
+  .section-f ul li a:hover {
+    color: #000;
+    background-color: #444;
+    color:#f7c08a;
+  }
+  
+  .section-f ul li img {
+      width: 23px; 
+      height: 22px; 
+      margin-right: 5px; 
+  }
+
+

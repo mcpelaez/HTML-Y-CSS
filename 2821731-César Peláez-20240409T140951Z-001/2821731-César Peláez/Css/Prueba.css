@@ -1,0 +1,174 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  background-image: url(./Imagenes/pexels-photo-975771.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-color: lightgreen;
+  text-align: center;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.header h1 {
+  font-size: 1.4rem;
+}
+
+
+.nav a:hover {
+  background-color: #230cf185;
+  color: rgba(12, 12, 12, 0.973);
+}
+
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgoldenrodyellow;
+  height: 4rem;
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.nav ul li {
+  display: inline;
+  color: blue;
+  padding-right: 1rem;
+  padding: 0.3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 0.1rem solid;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.section-1 {
+  background-color: lightcyan;
+  height: 620px;
+  width: 640px;
+  margin-top: 2rem;
+  margin-left: 0.3rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.section-1 h1, h2 {
+  padding-top: 1rem;
+  padding-bottom: 1px;
+}
+
+.section-1 img {
+  height: 13rem;
+  margin-top: 2px;
+  border-radius: 10px;
+}
+
+.section-1 time {
+  position: relative;
+}
+
+.section-1 p {
+  margin-top: 2rem;
+}
+
+.article-1 {
+  background-color: lightcyan;
+  height: 18rem;
+  width: 40rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.article-1 footer p {
+  position: relative;
+  top: 2rem;
+}
+.aside-1 img {
+  height: 13rem;
+  width: 17rem;
+  margin-top: 3rem;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.aside-1 {
+  background-color: lightcyan;
+  position: relative;
+  bottom: 50rem;
+  left: 50rem;
+  height: 12rem;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 15rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.footer-1 {
+  background-color: lightcyan;
+  padding: 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 30%;
+}
+
+.section h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.section ul li a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section ul li a:hover {
+  color: #000;
+}
+
+.section ul li img {
+    width: 30px; 
+    height: auto; 
+    margin-right: 5px; 
+}
